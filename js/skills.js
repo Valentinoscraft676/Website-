@@ -29,3 +29,14 @@ async function showNextSlide() {
 }
 
 setInterval(showNextSlide, 7_000);
+
+document.addEventListener("scroll", () => {
+    const icons = document.querySelectorAll("i[data-speed]");
+
+    icons.forEach(icon => {
+        const speed = parseFloat(icon.dataset.speed);
+        const offset = window.scrollY * -speed;
+        
+        icon.style.transform = `translateY(${offset}px) rotate(15deg)`;
+    });
+});
