@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diary</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body class="bg-slate-50">
     <nav class="bg-white shadow-lg">
@@ -24,24 +25,24 @@
         </div>
     </nav>
 
-    <header class="py-12 bg-gradient-to-b from-slate-100 to-slate-50">
+    <header class="pt-12 px-12 lg:px-0 bg-gradient-to-b from-slate-100 to-slate-50">
         <div class="flex flex-col md:flex-row max-w-6xl mx-auto">
             <div class="w-full md:w-1/2 flex flex-col justify-center">
                 <h1 class="text-4xl font-bold text-gray-800 mb-4">Future Goals</h1>
                 <ul class="list-disc list-inside">
-                    <li class="text-gray-600 leading-relaxed mb-3">
+                    <li class="text-gray-600 leading-relaxed text-lg mb-3">
                         Looking to start a machining job so I can improve my craft and gain professional experience.
                     </li>
-                    <li class="text-gray-600 leading-relaxed mb-3">
+                    <li class="text-gray-600 leading-relaxed text-lg mb-3">
                         Become a manager of a timber merchants dealing with the cost and logistics later on. I have
                         qualifications in Leadership and management.
                     </li>
-                    <li class="text-gray-600 leading-relaxed">
+                    <li class="text-gray-600 leading-relaxed text-lg">
                         <b>I am also practical and a strong thinker so will be interested In any opportunities.</b>
                     </li>
                 </ul>
             </div>
-            <figure id="career-diagram" class="w-full md:w-1/2 relative">
+            <figure id="career-diagram" class="w-full md:w-1/2 relative mt-10 lg:mt-0">
                 <img src="/images/career/base.svg" alt="" class="object-cover">
                 <img src="/images/career/1.svg" alt=""
                     class="object-cover absolute inset-0 transition-opacity duration-300 opacity-100">
@@ -57,6 +58,70 @@
             </figure>
         </div>
     </header>
+
+    <div class="mx-auto h-14 w-0.5 bg-gray-300 my-12 rounded-lg"></div>
+
+    <section class="px-8">
+        <div class="mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10 text-center">Qualifications & Skills</h2>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5">
+                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden">
+                    <i class="bi bi-translate text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]"></i>
+                    <div class="z-10 relative">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Language</h3>
+                        <p class="text-gray-600 leading-relaxed">Good standard of English and math.</p>
+                    </div>
+                </li>
+                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden">
+                    <i class="bi bi-plus-slash-minus text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]"></i>
+                    <div class="z-10 relative">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Mathematics</h3>
+                        <p class="text-gray-600 leading-relaxed">Design principles using circles, hexagons, squares,
+                            rectangles, and ovals.</p>
+                    </div>
+                </li>
+                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden">
+                    <i class="bi bi-currency-pound text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]"></i>
+                    <div class="z-10 relative">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Cost Calculation</h3>
+                        <p class="text-gray-600 leading-relaxed">Calculating costs of wood in M3.</p>
+                    </div>
+                </li>
+                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden">
+                    <i class="bi bi-box text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]"></i>
+                    <div class="z-10 relative">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Technical Understanding</h3>
+                        <p class="text-gray-600 leading-relaxed">Reading basic front, end and plan tech drawings.</p>
+                    </div>
+                </li>
+                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden">
+                    <i class="bi bi-gem text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]"></i>
+                    <div class="z-10 relative">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Decorative Elements</h3>
+                        <p class="text-gray-600 leading-relaxed">Inlay marketry, bevels, resin work, as well as stencil artwork.</p>
+                    </div>
+                </li>
+                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden">
+                    <i class="bi bi-people text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]"></i>
+                    <div class="z-10 relative">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Management Qualification</h3>
+                        <div class="text-gra6-6 leading-relaxed00">Leadership and Management ILM Level 3.</div>
+                    </div>
+                </li>
+                <li>
+                    <!--empty on purpose-->
+                </li>
+                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden">
+                    <i class="bi bi-tools text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]"></i>
+                    <div class="z-10 relative">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Practical Experience</h3>
+                        <p class="text-gray-600 leading-relaxed">I have machinist experience. References available on request.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
 
     <script src="/js/career_diagram.js"></script>
 </body>
