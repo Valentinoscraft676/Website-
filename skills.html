@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50">
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <a href="/">
+                    <div class="text-2xl font-semibold text-slate-800">Valentino's Crafts</div>
+                </a>
+                <div class="flex space-x-4">
+                    <a href="/#about" class="text-gray-600 hover:text-slate-800">About</a>
+                    <a href="/skills.html" class="text-gray-600 hover:text-slate-800">Skills</a>
+                    <a href="/#gallery" class="text-gray-600 hover:text-slate-800">Gallery</a>
+                    <a href="/#portfolio" class="text-gray-600 hover:text-slate-800">Portfolio</a>
+                    <a href="/#contact" class="text-gray-600 hover:text-slate-800">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-12 bg-gradient-to-b from-slate-100 to-slate-50">
+        <div class="flex flex-col md:flex-row max-w-6xl mx-auto">
+            <div class="w-full md:w-1/2 flex flex-col justify-center">
+                <h1 class="text-4xl font-bold text-gray-800 mb-4">Future Goals</h1>
+                <ul class="list-disc list-inside">
+                    <li class="text-gray-600 leading-relaxed mb-3">
+                        Looking to start a machining job so I can improve my craft and gain professional experience.
+                    </li>
+                    <li class="text-gray-600 leading-relaxed mb-3">
+                        Become a manager of a timber merchants dealing with the cost and logistics later on. I have
+                        qualifications in Leadership and management.
+                    </li>
+                    <li class="text-gray-600 leading-relaxed">
+                        <b>I am also practical and a strong thinker so will be interested In any opportunities.</b>
+                    </li>
+                </ul>
+            </div>
+            <figure id="career-diagram" class="w-full md:w-1/2 relative">
+                <img src="/images/career/base.svg" alt="" class="object-cover">
+                <img src="/images/career/1.svg" alt=""
+                    class="object-cover absolute inset-0 transition-opacity duration-300 opacity-100">
+                <img src="/images/career/2.svg" alt=""
+                    class="object-cover absolute inset-0 transition-opacity duration-300 opacity-20">
+                <img src="/images/career/3.svg" alt=""
+                    class="object-cover absolute inset-0 transition-opacity duration-300 opacity-20">
+                <img src="/images/career/4.svg" alt=""
+                    class="object-cover absolute inset-0 transition-opacity duration-300 opacity-20">
+                <img src="/images/career/5.svg" alt=""
+                    class="object-cover absolute inset-0 transition-opacity duration-300 opacity-20">
+                <figcaption class="text-center text-gray-500 mt-5 text-xs">Linear & Quadratic Growth Diagram</figcaption>
+            </figure>
+        </div>
+    </header>
+
+    <script src="/js/career_diagram.js"></script>
+</body>
+</html>
