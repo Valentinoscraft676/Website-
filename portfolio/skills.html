@@ -1,125 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark:text-text text-text overflow-x-hidden">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qualifications & Skills</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="/styles/global.css">
 </head>
-<body class="bg-slate-50">
-    <nav class="bg-white shadow-lg">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="flex justify-between items-center py-4">
-                <a href="/">
-                    <div class="text-2xl font-semibold text-slate-800 animate-fade-slide">Valentino's Crafts</div>
-                </a>
-                <div class="flex space-x-4">
-                    <a href="/#about" class="text-gray-600 hover:text-slate-800">About</a>
-                    <a href="/#gallery" class="text-gray-600 hover:text-slate-800">Gallery</a>
-                    <a href="/#portfolio" class="text-gray-600 hover:text-slate-800">Portfolio</a>
-                    <a href="/#contact" class="text-gray-600 hover:text-slate-800">Contact</a>
-                    <a href="/skills.html" class="text-gray-600 hover:text-slate-800">Skills</a>
-                    <a href="/diary.html" class="text-gray-600 hover:text-slate-800">Diary</a>
+<body class="bg-background">
+    <header class="text-center">
+        <nav class="bg-secondary-800/10 py-8">
+            <div class="max-w-6xl mx-auto px-4 animate-fade-down">
+                <div class="flex justify-between items-center py-4">
+                    <a href="/">
+                        <div class="text-2xl font-semibold animate-fade-down">Valentino's Crafts</div>
+                    </a>
+                    <div class="flex space-x-4 text-lg">
+                        <a href="/portfolio.html" class="">Portfolio</a>
+                        <a href="/portfolio/diary.html" class="">Diary</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <header class="pt-12 px-12 lg:px-0 bg-gradient-to-b from-slate-100 to-slate-50">
+    <section class="pt-12 px-12 lg:px-0 mt-10 animate-fade-left">
         <div class="flex flex-col md:flex-row max-w-6xl mx-auto">
             <div class="w-full md:w-1/2 flex flex-col justify-center">
-                <h1 class="text-4xl font-bold text-gray-800 mb-4">My Goals</h1>
+                <h1 class="text-4xl font-bold text-text mb-4">My Goals</h1>
                 <ul class="list-disc list-inside">
-                    <li class="text-gray-600 leading-relaxed text-lg mb-3">
+                    <li class="text-text leading-relaxed text-lg mb-3">
                         Aspiring machinist seeking an opportunity to refine craftsmanship and gain hands-on professional experience.
                     </li>
-                    <li class="text-gray-600 leading-relaxed text-lg mb-3">
+                    <li class="text-text leading-relaxed text-lg mb-3">
                         Aiming to develop into a managerial role in the timber trade, with a focus on logistics and cost management.
                     </li>
-                    <li class="text-gray-600 leading-relaxed text-lg mb-3">
+                    <li class="text-text leading-relaxed text-lg mb-3">
                         Professionally qualified in leadership and management.
                     </li>
-                    <li class="text-gray-600 leading-relaxed text-lg">
+                    <li class="text-text leading-relaxed text-lg">
                         <b>I bring a practical mindset and strong analytical thinking, and I am open to a variety of professional opportunities.</b>
                     </li>
                 </ul>
             </div>
 
             <figure id="career-diagram" class="w-full md:w-1/2 relative mt-10 lg:mt-0">
-                <img src="/images/career/base.svg" alt="" class="object-cover">
+                <img src="/images/career/base.svg" alt="" class="object-cover invert">
                 <img src="/images/career/1.svg" alt=""
-                    class="object-cover absolute inset-0 transition-opacity duration-300 opacity-100">
+                    class="invert object-cover absolute inset-0 transition-opacity duration-300 opacity-100">
                 <img src="/images/career/2.svg" alt=""
-                    class="object-cover absolute inset-0 transition-opacity duration-300 opacity-20">
+                    class="invert object-cover absolute inset-0 transition-opacity duration-300 opacity-40">
                 <img src="/images/career/3.svg" alt=""
-                    class="object-cover absolute inset-0 transition-opacity duration-300 opacity-20">
+                    class="invert object-cover absolute inset-0 transition-opacity duration-300 opacity-40">
                 <img src="/images/career/4.svg" alt=""
-                    class="object-cover absolute inset-0 transition-opacity duration-300 opacity-20">
+                    class="invert object-cover absolute inset-0 transition-opacity duration-300 opacity-40">
                 <img src="/images/career/5.svg" alt=""
-                    class="object-cover absolute inset-0 transition-opacity duration-300 opacity-20">
-                <figcaption class="text-center text-gray-500 mt-5 text-xs">Linear & Quadratic Growth Diagram</figcaption>
+                    class="invert object-cover absolute inset-0 transition-opacity duration-300 opacity-40">
+                <figcaption class="text-center text-text mt-5 text-xs">Linear & Quadratic Growth Diagram</figcaption>
             </figure>
         </div>
-    </header>
+    </section>
 
-    <div class="mx-auto h-14 w-0.5 bg-gray-300 my-12 rounded-lg"></div>
+    <div class="mx-auto h-14 w-0.5 bg-background-50 my-12 rounded-lg"></div>
 
-    <section class="px-8">
+    <section class="px-8 animate-fade-right">
         <div class="mx-auto max-w-6xl">
-            <h2 class="text-3xl font-bold text-gray-800 mb-10 text-center">Qualifications & Skills</h2>
+            <h2 class="text-3xl font-bold text-text mb-10 text-center">Qualifications & Skills</h2>
             <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5">
-                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
-                    <i class="bi bi-translate text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]" data-speed="0.06"></i>
+                <li class="bg-secondary/20 rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
+                    <i class="bi bi-translate text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-15 invert opacity-70" data-speed="0.06"></i>
                     <div class="z-10 relative">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Language</h3>
-                        <p class="text-gray-600 leading-relaxed">Proficient in English and mathematics.</p>
+                        <h3 class="text-xl font-semibold text-text mb-1">Language</h3>
+                        <p class="text-text-100 leading-relaxed">Proficient in English and mathematics.</p>
                     </div>
                 </li>
-                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
-                    <i class="bi bi-plus-slash-minus text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]" data-speed="0.06"></i>
+                <li class="bg-secondary/20 rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
+                    <i class="bi bi-plus-slash-minus text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-15 invert opacity-70" data-speed="0.06"></i>
                     <div class="z-10 relative">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Mathematics</h3>
-                        <p class="text-gray-600 leading-relaxed">Application of geometric design principles using circles, hexagons, squares, rectangles, and ovals.</p>
+                        <h3 class="text-xl font-semibold text-text mb-1">Mathematics</h3>
+                        <p class="text-text-100 leading-relaxed">Application of geometric design principles using circles, hexagons, squares, rectangles, and ovals.</p>
                     </div>
                 </li>
-                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
-                    <i class="bi bi-currency-pound text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]" data-speed="0.06"></i>
+                <li class="bg-secondary/20 rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
+                    <i class="bi bi-currency-pound text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-15 invert opacity-70" data-speed="0.06"></i>
                     <div class="z-10 relative">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Cost Calculation</h3>
-                        <p class="text-gray-600 leading-relaxed">Ability to calculate timber volumes and costs in cubic metres.</p>
+                        <h3 class="text-xl font-semibold text-text mb-1">Cost Calculation</h3>
+                        <p class="text-text-100 leading-relaxed">Ability to calculate timber volumes and costs in cubic metres.</p>
                     </div>
                 </li>
-                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
-                    <i class="bi bi-box text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]" data-speed="0.06"></i>
+                <li class="bg-secondary/20 rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
+                    <i class="bi bi-box text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-15 invert opacity-70" data-speed="0.06"></i>
                     <div class="z-10 relative">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Technical Understanding</h3>
-                        <p class="text-gray-600 leading-relaxed">Competent in interpreting basic front, end, and plan technical drawings.</p>
+                        <h3 class="text-xl font-semibold text-text mb-1">Technical Understanding</h3>
+                        <p class="text-text-100 leading-relaxed">Competent in interpreting basic front, end, and plan technical drawings.</p>
                     </div>
                 </li>
-                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
-                    <i class="bi bi-gem text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]" data-speed="0.06"></i>
+                <li class="bg-secondary/20 rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
+                    <i class="bi bi-gem text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-15 invert opacity-70" data-speed="0.06"></i>
                     <div class="z-10 relative">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Decorative Elements</h3>
-                        <p class="text-gray-600 leading-relaxed">Skilled in inlay marquetry, bevel detailing, resin applications, and stencil-based artwork.</p>
+                        <h3 class="text-xl font-semibold text-text mb-1">Decorative Elements</h3>
+                        <p class="text-text-100 leading-relaxed">Skilled in inlay marquetry, bevel detailing, resin applications, and stencil-based artwork.</p>
                     </div>
                 </li>
-                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
-                    <i class="bi bi-people text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]" data-speed="0.06"></i>
+                <li class="bg-secondary/20 rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
+                    <i class="bi bi-people text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-15 invert opacity-70" data-speed="0.06"></i>
                     <div class="z-10 relative">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Management Qualification</h3>
+                        <h3 class="text-xl font-semibold text-text mb-1">Management Qualification</h3>
                         <div class="text-gra6-6 leading-relaxed00">Institute of Leadership & Management (ILM) Level 3 qualification in Leadership and Management.</div>
                     </div>
                 </li>
                 <li>
                     <!--empty on purpose-->
                 </li>
-                <li class="bg-white rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
-                    <i class="bi bi-tools text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-[15deg]" data-speed="0.06"></i>
+                <li class="bg-secondary/20 rounded-xl p-4 shadow-md relative overflow-hidden animation-scroll-fade-in">
+                    <i class="bi bi-tools text-9xl text-gray-100 mb-2 absolute z-0 right-0 top-0 rotate-15 invert opacity-70" data-speed="0.06"></i>
                     <div class="z-10 relative">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Practical Experience</h3>
-                        <p class="text-gray-600 leading-relaxed">Practical experience as a machinist. References available on request.</p>
+                        <h3 class="text-xl font-semibold text-text mb-1">Practical Experience</h3>
+                        <p class="text-text-100 leading-relaxed">Practical experience as a machinist. References available on request.</p>
                     </div>
                 </li>
             </ul>
@@ -130,67 +128,67 @@
 
     <section class="px-8">
         <div class="mx-auto max-w-6xl flex flex-col items-center">
-            <h2 class="text-3xl font-bold text-gray-800 mb-10">Career Goal</h2>
+            <h2 class="text-3xl font-bold text-text mb-10">Career Goal</h2>
             <ul class="">
                 <li class="animation-scroll-fade-in">
-                    <div class="text-3xl font-bold text-gray-800 mb-10 mb-4 leading-relaxed bg-gray-800 py-1 px-2 rounded-lg text-white w-fit">
+                    <div class="text-3xl font-bold mb-4 leading-relaxed bg-accent/20 py-1 px-2 rounded-lg text-text w-fit">
                         Apprentice / Helper
                     </div>
-                    <p class="text-lg text-gray-600 leading-relaxed mb-3">
+                    <p class="text-lg text-text-100 leading-relaxed mb-3">
                         Develop a strong work ethic and attention to detail while observing professional craftsmanship standards. Gain hands-on exposure to machinery and workflows to prepare for progression into a Machinist role.
                     </p>
                 </li>
                 <li class="animation-scroll-fade-in">
-                    <i class="bi bi-arrow-down block text-gray-500 text-xl my-8 text-center"></i>
-                    <div class="text-3xl font-bold text-gray-800 mb-10 mb-4 leading-relaxed bg-gray-800 py-1 px-2 rounded-lg text-white w-fit">
+                    <i class="bi bi-arrow-down block text-text-100 text-xl my-8 text-center"></i>
+                    <div class="text-3xl font-bold mb-4 leading-relaxed bg-accent/20 py-1 px-2 rounded-lg text-text w-fit">
                         Machinist / Carpenter
                     </div>
-                    <p class="text-lg text-gray-600 leading-relaxed mb-3">
+                    <p class="text-lg text-text-100 leading-relaxed mb-3">
                         Continuously improve craftsmanship, efficiency, and problem-solving skills. Take responsibility for personal output quality while collaborating effectively with team members on larger projects.
                     </p>
                 </li>
                 <li class="animation-scroll-fade-in">
-                    <i class="bi bi-arrow-down block text-gray-500 text-xl my-8 text-center"></i>
-                    <div class="text-3xl font-bold text-gray-800 mb-10 mb-4 leading-relaxed bg-gray-800 py-1 px-2 rounded-lg text-white w-fit">
+                    <i class="bi bi-arrow-down block text-text-100 text-xl my-8 text-center"></i>
+                    <div class="text-3xl font-bold mb-4 leading-relaxed bg-accent/20 py-1 px-2 rounded-lg text-text w-fit">
                         Senior Machinist / Master Craftsman
                     </div>
-                    <p class="text-lg text-gray-600 leading-relaxed mb-3">
+                    <p class="text-lg text-text-100 leading-relaxed mb-3">
                         Mentor apprentices and junior machinists by sharing knowledge, enforcing best practices, and maintaining craftsmanship quality. Support supervisors by identifying process improvements and reducing errors or waste.
                     </p>
                 </li>
                 <li class="animation-scroll-fade-in">
-                    <i class="bi bi-arrow-down block text-gray-500 text-xl my-8 text-center"></i>
-                    <div class="text-3xl font-bold text-gray-800 mb-10 mb-4 leading-relaxed bg-gray-800 py-1 px-2 rounded-lg text-white w-fit">
+                    <i class="bi bi-arrow-down block text-text-100 text-xl my-8 text-center"></i>
+                    <div class="text-3xl font-bold mb-4 leading-relaxed bg-accent/20 py-1 px-2 rounded-lg text-text w-fit">
                         Assistant Store Manager / Supervisor
                     </div>
-                    <p class="text-lg text-gray-600 leading-relaxed mb-3">
+                    <p class="text-lg text-text-100 leading-relaxed mb-3">
                         Gain experience in inventory management, procurement planning, and basic quality control processes. Act as a bridge between workshop staff and management, resolving issues and maintaining productivity.
                     </p>
                 </li>
                 <li class="animation-scroll-fade-in">
-                    <i class="bi bi-arrow-down block text-gray-500 text-xl my-8 text-center"></i>
-                    <div class="text-3xl font-bold text-gray-800 mb-10 mb-4 leading-relaxed bg-gray-800 py-1 px-2 rounded-lg text-white w-fit">
+                    <i class="bi bi-arrow-down block text-text-100 text-xl my-8 text-center"></i>
+                    <div class="text-3xl font-bold mb-4 leading-relaxed bg-accent/20 py-1 px-2 rounded-lg text-text w-fit">
                         Store Manager
                     </div>
-                    <p class="text-lg text-gray-600 leading-relaxed mb-3">
+                    <p class="text-lg text-text-100 leading-relaxed mb-3">
                         Develop strong customer service and sales skills, ensuring client satisfaction and repeat business. Handle budgeting, stock levels, pricing, and profitability while maintaining high-quality output.
                     </p>
                 </li>
                 <li class="animation-scroll-fade-in">
-                    <i class="bi bi-arrow-down block text-gray-500 text-xl my-8 text-center"></i>
-                    <div class="text-3xl font-bold text-gray-800 mb-10 mb-4 leading-relaxed bg-gray-800 py-1 px-2 rounded-lg text-white w-fit">
+                    <i class="bi bi-arrow-down block text-text-100 text-xl my-8 text-center"></i>
+                    <div class="text-3xl font-bold mb-4 leading-relaxed bg-accent/20 py-1 px-2 rounded-lg text-text w-fit">
                         General Manager (Optional)
                     </div>
-                    <p class="text-lg text-gray-600 leading-relaxed mb-3">
+                    <p class="text-lg text-text-100 leading-relaxed mb-3">
                         Support strategic planning, growth initiatives, and long-term improvements. Act as a key decision-maker aligning operational goals with the company's vision and financial targets.
                     </p>
                 </li>
                 <li class="animation-scroll-fade-in">
-                    <i class="bi bi-arrow-down block text-gray-500 text-xl my-8 text-center"></i>
-                    <div class="text-3xl font-bold text-gray-800 mb-10 mb-4 leading-relaxed bg-gray-800 py-1 px-2 rounded-lg text-white w-fit">
+                    <i class="bi bi-arrow-down block text-text-100 text-xl my-8 text-center"></i>
+                    <div class="text-3xl font-bold mb-4 leading-relaxed bg-accent/20 py-1 px-2 rounded-lg text-text w-fit">
                         Ownership / Director
                     </div>
-                    <p class="text-lg text-gray-600 leading-relaxed mb-3">
+                    <p class="text-lg text-text-100 leading-relaxed mb-3">
                         Oversee financial performance, investments, and business development while empowering managers and craftsmen. Build a strong reputation through craftsmanship excellence, reliable service, and sustainable operations.
                     </p>
                 </li>
@@ -201,22 +199,22 @@
     <div class="mx-auto h-14 w-0.5 bg-gray-300 my-12 rounded-lg"></div>
 
     <section class="mx-auto flex flex-col items-center">
-        <div class="text-4xl font-bold text-gray-800 mb-7 text-center">Interested In My Previous Works?</div>
+        <h3 class="text-4xl font-bold mb-7 text-center">Did I Catch Your Attention?</h3>
         <div class="flex flex-col md:flex-row">
-            <a href="mailto:ValentinosCrafts@outlook.com" class="inline-block bg-slate-700 text-white py-3 px-8 rounded-lg hover:bg-slate-800 transition-colors">
+            <a href="mailto:ValentinosCrafts@outlook.com" class="inline-block bg-primary-500 font-bold text-white py-3 px-8 rounded-lg hover:bg-primary-400 transition-colors">
                 Send me an email
             </a>
-            <div class="my-5 md:my-auto mx-auto md:mx-5 text-gray-400">or</div>
-            <a href="/diary.html" class="inline-block bg-slate-700 text-white py-3 px-8 rounded-lg hover:bg-slate-800 transition-colors">
+            <div class="my-5 md:my-auto mx-auto md:mx-5 text-text">or</div>
+            <a href="/portfolio/diary.html" class="inline-block bg-primary-500 font-bold text-white py-3 px-8 rounded-lg hover:bg-primary-400 transition-colors">
                 Take a look at my diary
             </a>
         </div>
     </section>
 
-    <footer class="bg-gray-800 text-white py-8 mt-10">
+    <footer class="text-white py-8 bg-secondary-800/20 mt-24">
         <div class="max-w-6xl mx-auto px-4 text-center">
             <p class="mb-2">Thank you for visiting my portfolio</p>
-            <p class="text-gray-400">Looking forward to connecting with you</p>
+            <p class="text-text">Looking forward to connecting with you</p>
         </div>
     </footer>
 

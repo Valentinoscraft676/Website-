@@ -22,8 +22,8 @@ async function showNextSlide() {
         slides[index].classList.remove("opacity-100");
     }
 
-    slides[index].classList.add("opacity-20");
-    slides[nextIndex].classList.remove("opacity-20");
+    slides[index].classList.add("opacity-40");
+    slides[nextIndex].classList.remove("opacity-40");
 
     index = nextIndex;
 }
