@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark:text-text text-text overflow-x-hidden">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valentino's Crafts</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/global.css">
     <style>
         .scroll-smooth {
             scroll-behavior: smooth;
@@ -14,81 +14,157 @@
         }
     </style>
     <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="./lib/glider/glider.min.css">
 </head>
-<body class="bg-slate-50">
-    <nav class="bg-white shadow-lg">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="flex justify-between items-center py-4">
-                <a href="/">
-                    <div class="text-2xl font-semibold text-slate-800 animate-fade-slide">Valentino's Crafts</div>
-                </a>
-                <div class="flex space-x-4">
-                    <a href="/#about" class="text-gray-600 hover:text-slate-800">About</a>
-                    <a href="/#gallery" class="text-gray-600 hover:text-slate-800">Gallery</a>
-                    <a href="/#portfolio" class="text-gray-600 hover:text-slate-800">Portfolio</a>
-                    <a href="/#contact" class="text-gray-600 hover:text-slate-800">Contact</a>
-                    <a href="/skills.html" class="text-gray-600 hover:text-slate-800">Skills</a>
-                    <a href="/diary.html" class="text-gray-600 hover:text-slate-800">Diary</a>
+<body class="bg-background">
+    <header class="text-center">
+        <nav class="bg-secondary-800/10 py-8">
+            <div class="max-w-6xl mx-auto px-4 animate-fade-down">
+                <div class="flex justify-between items-center py-4">
+                    <a href="/">
+                        <div class="text-2xl font-semibold animate-fade-down">Valentino's Crafts</div>
+                    </a>
+                    <div class="flex space-x-4 text-lg">
+                        <a href="/portfolio/skills.html" class="">Skills</a>
+                        <a href="/portfolio/diary.html" class="">Diary</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-
-    <header class="text-center py-12 bg-gradient-to-b from-slate-100 to-slate-50">
-        <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to My Journey</h1>
-        <div class="text-xl text-gray-600 max-w-3xl mx-auto px-4 leading-relaxed">
-            <p class="mb-4">Here I am showcasing some of my most proud projects. But most importantly I hope to inspire the artisan in you and also to look back on my journey.</p>
-            <p class="italic">"I believe excitement and passion is found in uncomfortability. Like a fruit tree we do not know what we will reap until we sow our seed"</p>
-        </div>
+        </nav>
     </header>
-
-    <section id="about" class="max-w-6xl mx-auto py-8 px-4">
-        <div class="bg-white rounded-lg shadow-md p-8 mb-8">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">My Story</h2>
-            <p class="text-gray-600 leading-relaxed">
-                It all started on a stepping stone surrounded by water, but as time went on I began to realise.. creating something exciting can be quite a thrill seeking experience. Please do take a look at my work, and stay tuned for more very soon!
+    
+    <section class="flex flex-col items-center my-18 animate-fade-left">
+        <h1 class="border-secondary/50 border-b-8 my-12 mx-12">Crafting Ideas Into Reality</h1>
+        <div class="text-xl max-w-3xl mx-auto px-4 leading-relaxed">
+            <div class="flex justify-start">
+                <span class="text-accent text-4xl">🙷</span>
+            </div>
+            <p class="">
+                <span class="italic text-center">I believe true excitement and passion are found in stepping out of comfort. Like a fruit tree, we never know what we will reap until we plant the seed.</span>
+                <br>
             </p>
+            <div class="flex justify-end">
+                <span class="text-accent text-4xl">🙷</span>                
+            </div>
         </div>
     </section>
 
-    <section id="gallery" class="max-w-6xl mx-auto py-8 px-4">
-        <h2 class="text-2xl font-semibold text-gray-800 mb-6">Featured Projects</h2>
-        <div class="gallery-scroll overflow-x-auto flex space-x-4 pb-4">
-            <img src="./images/gallery/1.jpg" alt="Project 1" class="rounded-lg shadow-md min-w-[300px]">
-            <img src="./images/gallery/2.jpg" alt="Project 2" class="rounded-lg shadow-md min-w-[300px]">
-            <img src="./images/gallery/3.jpg" alt="Project 3" class="rounded-lg shadow-md min-w-[300px]">
-            <img src="./images/gallery/4.jpg" alt="Project 5" class="rounded-lg shadow-md min-w-[300px]">
-            <img src="./images/gallery/5.jpg" alt="Project 5" class="rounded-lg shadow-md min-w-[300px]">
-            <img src="./images/gallery/6.jpg" alt="Project 6" class="rounded-lg shadow-md min-w-[300px]">
-            <img src="./images/gallery/7.jpg" alt="Project 7" class="rounded-lg shadow-md min-w-[300px]">
-        </div>
+    <section id="about" class="max-w-6xl mx-auto py-8 px-4 my-20 animate-fade-right">
+        <div class="border-t-8 border-accent w-1/2 -translate-x-4"></div>
+        <h2 class="leading-loose">Welcome to my portfolio</h2>
+        <p class="mb-4 leading-relaxed">
+            Where I share the projects I'm most proud of and the journey that shaped them. What began as a small stepping stone surrounded by water has grown into a space where experimentation and creativity thrive. Creating something exciting can be a thrill, and I hope my work sparks inspiration in you as much as it has in me. Take a look around, and stay tuned, there's more to come!
+        </p>
     </section>
 
-    <section id="portfolio" class="max-w-6xl mx-auto py-8 px-4">
-        <div class="bg-white rounded-lg shadow-md p-8 text-center">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Portfolio</h2>
-            <p class="text-gray-600 mb-6">View my complete portfolio showcasing all my work and achievements</p>
-            <a href="./images/portfolio.pdf" target="_blank" rel="noopener noreferrer" class="inline-block bg-slate-700 text-white py-3 px-8 rounded-lg hover:bg-slate-800 transition-colors">
-                View Portfolio (PDF)
-            </a>
-        </div>
-    </section>
+    <div class="flex justify-center my-4">
+        <h3>My gallery</h3>
+    </div>
+    <div class="mx-32 max-h-120 max-sm:mx-4">
+        <div class="glider-contain max-h-120">
+            <div class="glider">
+                <img src="./images/gallery/1.jpg" alt="Project 1" class="max-h-120 object-contain">
+                <img src="./images/gallery/2.jpg" alt="Project 2" class="max-h-120 object-contain">
+                <img src="./images/gallery/5.jpg" alt="Project 5" class="max-h-120 object-contain">
+                <img src="./images/gallery/6.jpg" alt="Project 6" class="max-h-120 object-contain">
+                <img src="./images/gallery/7.jpg" alt="Project 7" class="max-h-120 object-contain">
+                <img src="./images/gallery/3.jpg" alt="Project 3" class="max-h-120 object-contain">
+                <img src="./images/gallery/4.jpg" alt="Project 5" class="max-h-120 object-contain">
+            </div>
 
-    <section id="contact" class="max-w-6xl mx-auto py-8 px-4 mb-12">
-        <div class="bg-white rounded-lg shadow-md p-8 text-center">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Get in Touch</h2>
-            <p class="text-gray-600 mb-6">Interested in collaborating or learning more about my work?</p>
-            <a href="mailto:ValentinosCrafts@outlook.com" class="inline-block bg-slate-700 text-white py-3 px-8 rounded-lg hover:bg-slate-800 transition-colors">
-                Send me an email
-            </a>
+            <!-- <button aria-label="Previous" class="glider-prev z-1 text-text">«</button>
+            <button aria-label="Next" class="glider-next z-1">»</button> -->
+            <div role="tablist" class="dots"></div>
         </div>
-    </section>
+    </div>
 
-    <footer class="bg-gray-800 text-white py-8">
+    <div class="flex my-24 max-sm:flex-col">
+        <section id="portfolio" class="max-w-6xl mx-auto py-8 px-4">
+            <div class="rounded-lg shadow-md p-8 text-center">
+                <h2 class="text-2xl font-semibold mb-4">Portfolio</h2>
+                <p class="mb-6">View my complete portfolio showcasing all my work and achievements</p>
+                <a href="./images/portfolio.pdf" target="_blank" rel="noopener noreferrer" class="inline-block bg-primary-500 text-white py-3 px-8 rounded-lg hover:bg-primary-400 transition-colors">
+                    View Portfolio (PDF)
+                </a>
+            </div>
+        </section>
+
+        <section id="contact" class="max-w-6xl mx-auto py-8 px-4 mb-12">
+            <div class="rounded-lg shadow-md p-8 text-center">
+                <h2 class="text-2xl font-semibold mb-4">Get in Touch</h2>
+                <p class="mb-6">Interested in collaborating or learning more about my work?</p>
+                <a href="mailto:ValentinosCrafts@outlook.com" class="inline-block bg-primary-500 text-white py-3 px-8 rounded-lg hover:bg-primary-400 transition-colors">
+                    Send me an email
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="text-white py-8 bg-secondary-800/20">
         <div class="max-w-6xl mx-auto px-4 text-center">
             <p class="mb-2">Thank you for visiting my portfolio</p>
             <p class="text-gray-400">Looking forward to connecting with you</p>
         </div>
     </footer>
+<script src="lib/glider/glider.js"></script>
+<script>
+window.addEventListener('load', function(){
+    let glider = new Glider(document.querySelector('.glider'), {
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    draggable: true,
+    rewind: true,
+    dots: '.dots',
+    arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next'
+    },
+    responsive: [
+        {
+        // screens greater than >= 775px
+        breakpoint: 200,
+            settings: {
+                // Set to `auto` and provide item width to adjust to viewport
+                slidesToShow: 'auto',
+                slidesToScroll: 'auto',
+                itemWidth: 150,
+                duration: 0.25
+            }
+        },{
+        // screens greater than >= 1024px
+        breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                itemWidth: 150,
+                duration: 0.25
+            }
+        },{
+        // screens greater than >= 1440px
+        breakpoint: 1440,
+            settings: {
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                itemWidth: 150,
+                duration: 0.25
+            }
+        },{
+        // screens greater than >= 1440px
+        breakpoint: 1920,
+            settings: {
+                slidesToShow: 7,
+                slidesToScroll: 1,
+                itemWidth: 150,
+                duration: 0.25
+            }
+        },
+    ]
+    });
+
+    setInterval(() => {
+        glider.scrollItem('next');
+    }, 5000);
+})
+</script>
 </body>
 </html>
