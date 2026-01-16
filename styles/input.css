@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import "tailwindcss-animated";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900');
+@import "./theme.css" layer(theme);
+
+@layer base {
+  :root {
+    --p: clamp(0.95rem, 1vw, 1.2rem);
+    --h5: clamp(1.1rem, 1.2vw, 1.4rem);
+    --h4: clamp(1.25rem, 1.8vw, 1.6rem);
+    --h3: clamp(1.5rem, 2.5vw, 2rem);
+    --h2: clamp(1.8rem, 3.5vw, 2.8rem);
+    --h1: clamp(2.6rem, 5vw, 3.6rem);  
+    }
+
+  body {
+    font-size: var(--p);
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: var(--h1);
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: var(--h2);
+    font-weight: 600;
+    line-height: 1.15;
+  }
+
+  h3 {
+    font-size: var(--h3);
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: var(--h4);
+    font-weight: 500;
+  }
+
+  h5 {
+    font-size: var(--h5);
+    font-weight: 500;
+  }
+  
+  p{
+    font-size: var(--p);
+    font-weight: 500;
+  }
+}
+
+@layer utilities {
+  .text-p  { font-size: var(--p); }
+  .text-h5 { font-size: var(--h5); }
+  .text-h4 { font-size: var(--h4); }
+  .text-h3 { font-size: var(--h3); }
+  .text-h2 { font-size: var(--h2); }
+  .text-h1 { font-size: var(--h1); }
+}

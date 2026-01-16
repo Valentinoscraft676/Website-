@@ -1,94 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark:text-text">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentino's Crafts</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="title" content="Valentino's Business & Portfolio" />
+    <meta name="description" content="Explore my portfolio and business providing expert craftsmanship, project advice, and clear cost estimates for woodworking and timber projects." />
+    <meta name="keywords" content="woodworking portfolio, craftsmanship business, timber project advice, woodworking estimates, machinist, carpenter, custom woodworking" />
+    <meta name="robots" content="index, follow" />
+    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="language" content="English" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://valentinoscrafts.com/" />
+    <meta property="og:title" content="Valentino's Business & Portfolio" />
+    <meta property="og:description" content="Explore my portfolio and business providing expert craftsmanship, project advice, and clear cost estimates for woodworking and timber projects." />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://valentinoscrafts.com/" />
+    <meta property="twitter:title" content="Valentino's Business & Portfolio" />
+    <meta property="twitter:description" content="Explore my portfolio and business providing expert craftsmanship, project advice, and clear cost estimates for woodworking and timber projects." />
+    <title>Valentino's Business & Portfolio</title>
+
+    <link rel="shortcut icon" href="./images/material-symbols--settings-heart.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/global.css">
     <style>
-        .scroll-smooth {
-            scroll-behavior: smooth;
-        }
-        .gallery-scroll::-webkit-scrollbar {
-            display: none;
+        .hero-container > div {
+            transition: flex 0.15s ease;
         }
     </style>
-    <link rel="stylesheet" href="custom.css">
 </head>
-<body class="bg-slate-50">
-    <nav class="bg-white shadow-lg">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="flex justify-between items-center py-4">
-                <a href="/">
-                    <div class="text-2xl font-semibold text-slate-800 animate-fade-slide">Valentino's Crafts</div>
-                </a>
-                <div class="flex space-x-4">
-                    <a href="/#about" class="text-gray-600 hover:text-slate-800">About</a>
-                    <a href="/#gallery" class="text-gray-600 hover:text-slate-800">Gallery</a>
-                    <a href="/#portfolio" class="text-gray-600 hover:text-slate-800">Portfolio</a>
-                    <a href="/#contact" class="text-gray-600 hover:text-slate-800">Contact</a>
-                    <a href="/skills.html" class="text-gray-600 hover:text-slate-800">Skills</a>
-                    <a href="/diary.html" class="text-gray-600 hover:text-slate-800">Diary</a>
+<body class="bg-background h-screen overflow-y-hidden max-sm:overflow-y-scroll overflow-x-hidden">
+    <main class="max-sm:flex-col h-full flex hero-container" id="hero-container">
+        <div class="min-w-90 min-h-80 flex-1 h-full relative flex justify-start bg-background-900" id="hero-left">
+            <div class="animate-fade-right absolute z-1 h-full max-sm:w-full w-4/5 flex items-center justify-around" id="hero-left-content">
+                <div class="flex flex-col items-center justify-end">
+                    <div class="max-w-3/4 max-sm:max-w-full w-full flex justify-start p-4">
+                        <span class="font-bold text">Project estimates and collaborations</span>
+                    </div>
+                    <div class="p-8 max-w-3/4 max-sm:max-w-full">
+                        <h2>Business</h2>
+                        <p>Practical project advice, clear cost estimates, and professional support for woodworking and timber projects-focused on planning, efficiency, and quality results.</p>
+                    </div>
+                    <div class="max-w-3/4 w-full flex justify-end">
+                        <a href="business.html" class="bg-primary hover:bg-primary-400 text-text-900 gap-4 p-4 flex justify-center items-center font-bold mt-4 transition-colors ease-in-out duration-500">
+                            WORK WITH ME
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="16" d="M5 12h13.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="16;0"/></path><path stroke-dasharray="10" stroke-dashoffset="10" d="M19 12l-5 5M19 12l-5 -5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" to="0"/></path></g></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <img src="./images/blob-homepage-hero.svg" alt="Wavy bloby Background" class="opacity-3 object-cover">
+        </div>
+        <img src="./images/material-symbols--settings-heart.svg" alt="Cog gear with a heart" id="hero-logo" class="max-sm:hidden w-1/4 absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 animate-wiggle animate-ease-in-out animate-infinite animate-duration-5000 z-1">
+        <div class="min-w-90 min-h-80 flex-1 h-full relative flex justify-end bg-background-100 text-text-900" id="hero-right">
+            <div class="animate-fade-left absolute z-1 h-full max-sm:w-full w-4/5 flex items-center justify" id="hero-right-content">
+                <div class="flex flex-col items-center justify-end">
+                    <div class="max-w-3/4 w-full flex justify-start">
+                        <a href="portfolio.html" class="bg-accent-300 mb-4 text-text-900 gap-4 p-4 flex justify-center items-center font-bold hover:bg-accent-400 transition-colors ease-in-out duration-500">
+                            VIEW PORTFOLIO
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="16" d="M5 12h13.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="16;0"/></path><path stroke-dasharray="10" stroke-dashoffset="10" d="M19 12l-5 5M19 12l-5 -5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" to="0"/></path></g></svg>
+                        </a>
+                    </div>
+                    <div class="p-8 max-w-3/4 max-sm:max-w-full">
+                        <h2>Portfolio</h2>
+                        <p>A showcase of completed projects, craftsmanship skills, and creative work, reflecting my journey, techniques, and passion for building and making.</p>
+                    </div>
+                    <div class="max-w-3/4 max-sm:max-w-full w-full flex justify-end p-4">
+                        <span class="font-bold text">My dreams and achievements</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-
-    <header class="text-center py-12 bg-gradient-to-b from-slate-100 to-slate-50">
-        <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to My Journey</h1>
-        <div class="text-xl text-gray-600 max-w-3xl mx-auto px-4 leading-relaxed">
-            <p class="mb-4">Here I am showcasing some of my most proud projects. But most importantly I hope to inspire the artisan in you and also to look back on my journey.</p>
-            <p class="italic">"I believe excitement and passion is found in uncomfortability. Like a fruit tree we do not know what we will reap until we sow our seed"</p>
-        </div>
-    </header>
-
-    <section id="about" class="max-w-6xl mx-auto py-8 px-4">
-        <div class="bg-white rounded-lg shadow-md p-8 mb-8">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">My Story</h2>
-            <p class="text-gray-600 leading-relaxed">
-                It all started on a stepping stone surrounded by water, but as time went on I began to realise.. creating something exciting can be quite a thrill seeking experience. Please do take a look at my work, and stay tuned for more very soon!
-            </p>
-        </div>
-    </section>
-
-    <section id="gallery" class="max-w-6xl mx-auto py-8 px-4">
-        <h2 class="text-2xl font-semibold text-gray-800 mb-6">Featured Projects</h2>
-        <div class="gallery-scroll overflow-x-auto flex space-x-4 pb-4">
-            <img src="./images/gallery/1.jpg" alt="Project 1" class="rounded-lg shadow-md min-w-[300px]">
-            <img src="./images/gallery/2.jpg" alt="Project 2" class="rounded-lg shadow-md min-w-[300px]">
-            <img src="./images/gallery/3.jpg" alt="Project 3" class="rounded-lg shadow-md min-w-[300px]">
-            <img src="./images/gallery/4.jpg" alt="Project 5" class="rounded-lg shadow-md min-w-[300px]">
-            <img src="./images/gallery/5.jpg" alt="Project 5" class="rounded-lg shadow-md min-w-[300px]">
-            <img src="./images/gallery/6.jpg" alt="Project 6" class="rounded-lg shadow-md min-w-[300px]">
-            <img src="./images/gallery/7.jpg" alt="Project 7" class="rounded-lg shadow-md min-w-[300px]">
-        </div>
-    </section>
-
-    <section id="portfolio" class="max-w-6xl mx-auto py-8 px-4">
-        <div class="bg-white rounded-lg shadow-md p-8 text-center">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Portfolio</h2>
-            <p class="text-gray-600 mb-6">View my complete portfolio showcasing all my work and achievements</p>
-            <a href="./images/portfolio.pdf" target="_blank" rel="noopener noreferrer" class="inline-block bg-slate-700 text-white py-3 px-8 rounded-lg hover:bg-slate-800 transition-colors">
-                View Portfolio (PDF)
-            </a>
-        </div>
-    </section>
-
-    <section id="contact" class="max-w-6xl mx-auto py-8 px-4 mb-12">
-        <div class="bg-white rounded-lg shadow-md p-8 text-center">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Get in Touch</h2>
-            <p class="text-gray-600 mb-6">Interested in collaborating or learning more about my work?</p>
-            <a href="mailto:ValentinosCrafts@outlook.com" class="inline-block bg-slate-700 text-white py-3 px-8 rounded-lg hover:bg-slate-800 transition-colors">
-                Send me an email
-            </a>
-        </div>
-    </section>
-
-    <footer class="bg-gray-800 text-white py-8">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <p class="mb-2">Thank you for visiting my portfolio</p>
-            <p class="text-gray-400">Looking forward to connecting with you</p>
-        </div>
-    </footer>
+    </main>
 </body>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    function lerpTime(current, target, deltaTime, speed) {
+        const t = 1 - Math.exp(-speed * deltaTime);
+        return current + (target - current) * t;
+    }
+
+    function animate(now) {
+        const deltaTime = (now - lastTime) / 1000;
+        lastTime = now;
+
+        currentStart = lerpTime(currentStart, targetStart, deltaTime, config.lerpSpeed);
+        currentEnd = lerpTime(currentEnd, targetEnd, deltaTime, config.lerpSpeed);
+
+        let leftVal = currentStart.toFixed(4);
+        let rightVal = currentEnd.toFixed(4);
+
+        leftEl.style.flex = leftVal;
+        rightEl.style.flex = rightVal;
+
+        if(heroLogo != null){
+            heroLogo.style.left = `${leftEl.clientWidth}px`
+        }
+
+        requestAnimationFrame(animate);
+    }
+
+    const heroContainer = document.getElementById("hero-container");
+    const leftEl = document.getElementById("hero-left");
+    const rightEl = document.getElementById("hero-right");
+    const leftElContent = document.getElementById("hero-left-content");
+    const rightElContent = document.getElementById("hero-right-content");
+    const heroLogo = document.getElementById("hero-logo");
+
+    if (!heroContainer || !leftEl || !rightEl || !leftElContent || !rightElContent) return;
+
+    const config = {
+        maxIncrease: 0.25,   // 25% max
+        activeStart: 0.25,   // start of center zone
+        activeEnd: 0.75,     // end of center zone
+        lerpSpeed: 4,        // smoothing speed
+    };
+
+    let currentStart = 1;
+    let currentEnd = 1;
+    let targetStart = 1;
+    let targetEnd = 1;
+    let lastTime = performance.now();
+
+    document.addEventListener("mousemove", (e) => {
+    let cursorPosition = 0;
+    let style = window.getComputedStyle(heroContainer);
+
+    if(style.flexDirection == "column"){
+        cursorPosition = e.clientY/window.innerHeight;
+    }else{
+        cursorPosition = e.clientX / window.innerWidth;
+    }
+
+    const clampedCursorPosition = Math.min(Math.max(cursorPosition, config.activeStart), config.activeEnd);
+    const t = (clampedCursorPosition - config.activeStart) / (config.activeEnd - config.activeStart);
+
+    targetStart = 1;
+    targetEnd = 1;
+
+    if (t < 0.5) {
+        targetStart = 1 + (1 - t * 2) * config.maxIncrease;
+    } else {
+        targetEnd = 1 + (t - 0.5) * 2 * config.maxIncrease;
+    }
+    });
+
+    requestAnimationFrame(animate);
+});
+</script>
 </html>
