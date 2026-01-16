@@ -756,6 +756,11 @@
       display: none;
     }
   }
+  .max-tablet\:w-full {
+    @media (width < 48rem) {
+      width: 100%;
+    }
+  }
   .max-tablet\:flex-col {
     @media (width < 48rem) {
       flex-direction: column;
