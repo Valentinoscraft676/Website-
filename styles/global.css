@@ -868,6 +868,11 @@
       margin-inline: calc(var(--spacing) * 4);
     }
   }
+  .max-sm\:mb-2 {
+    @media (width < 40rem) {
+      margin-bottom: calc(var(--spacing) * 2);
+    }
+  }
   .max-sm\:max-w-full {
     @media (width < 40rem) {
       max-width: 100%;
