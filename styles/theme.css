@@ -1,4 +1,6 @@
 @theme {
+    --breakpoint-laptop: 48rem;
+
     --font-sans: "Inter", sans-serif;
     --color-text-50: hsl(0, 0%, 95%);
     --color-text-100: hsl(0, 0%, 90%);
