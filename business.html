@@ -1,21 +1,386 @@
 <!DOCTYPE html>
 <html lang="en" class="dark:text-text text-text">
 <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+          .meddon-regular {
+            font-family: "Meddon", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentino's Business</title>
+    <meta name="title" content="Valentino's Project Estimates & Advice" />
+    <meta name="description" content="Get expert estimates and professional advice for your home improvement projects" />
+    <meta name="keywords" content="woodworking estimates, woodworking project calculations, furniture project costs, cabinet cost estimates, home woodworking projects, project planning, DIY woodworking, home improvement estimates, renovation calculations, woodworking cost calculator, expert woodworking advice" />
+    <meta name="robots" content="index, follow" />
+    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="language" content="English" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://valentinoscrafts.com/business" />
+    <meta property="og:title" content="Valentino's Project Estimates & Advice" />
+    <meta property="og:description" content="Get expert estimates and professional advice for your home improvement projects" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://valentinoscrafts.com/business" />
+    <meta property="twitter:title" content="Valentino's Project Estimates & Advice" />
+    <meta property="twitter:description" content="Get expert estimates and professional advice for your home improvement projects" />
+
+    <title>Valentino's Project Estimates & Advice</title>
     <link rel="shortcut icon" href="./images/material-symbols--settings-heart.svg" type="image/x-icon">
     <link rel="stylesheet" href="./styles/global.css">
 </head>
-<body class="bg-background h-screen overflow-y-hidden max-sm:overflow-y-scroll overflow-x-hidden relative">
-    <img src="./images/blob-homepage-hero.svg" alt="Wavy bloby Background" class="w-full h-full opacity-3 object-cover absolute z-1">
-    <main class="max-sm:flex-col h-full w-full flex justify-center items-center hero-container p-8">
-        <div class="flex justify-start cursor-pointer flex-col">
-            <h1 class="font-bold max-sm:text-3xl">UNDER CONSTRUCTION</h1>
-            <div class="flex justify-end">
-                <img src="./images/material-symbols--settings-heart.svg" alt="Cog gear with a heart" class="w-1/4 animate-wiggle animate-ease-in-out animate-infinite animate-duration-5000 z-1">
+<body class="bg-background">
+    <main>
+      <div class="h-dvh max-sm:h-auto max-sm:pb-16 animate-fade-down">
+          <header class="flex pt-16 justify-center max-sm:flex-col max-sm:items-center">
+              <div class="text-2xl meddon-regular">
+                Valentinos Crafts
+              </div>
+              <div class="border-l-2 border-accent mx-8 max-sm:hidden"></div>
+              <nav class="flex gap-4 max-sm:gap-8 max-sm:mt-4">
+                  <a href="#">Estimates</a>
+                  <a href="#worked-examples">Examples</a>
+                  <a href="/portfolio.html">Portfolio</a>
+              </nav>
+          </header>
+          <div class="text-center py-4">
+              <div class="flex justify-center mt-24 max-sm:mt-8 max-sm:mx-8">
+                  <div class="w-1/2 max-lg:w-3/4 max-sm:w-full">
+                      <p class="text-text-100 mb-8 max-sm:mb-4 text-sm">Estimating, planning, and advice made simple</p>
+                      <h1 class="max-sm:text-4xl"><span class="bg-accent/70 rounded-2xl px-2">Bright ideas</span> for Your Home Projects</h1>
+                      <p class="mt-8 leading-loose text-text-50 text-lg max-sm:text-sm max-sm:mt-4">
+                        From measurements to materials, I provide clear estimates and practical advice so your home projects run smoothly.
+                        <br>
+                        <span class="italic">Save time, money, and stress on every project.</span>
+                      </p>
+                      <div class="flex gap-8 max-sm:gap-2 justify-center mt-12 max-sm:mt-4">
+                          <a href="#" class="max-sm:px-4 relative inline-flex items-center justify-center transition-colors bg-primary-400 px-8 py-4 rounded-4xl text-text-900 font-bold overflow-hidden hover:bg-primary-500">
+                              Get Your Estimate
+                          </a>
+                          <a href="#worked-examples" class="max-sm:px-4 bg-secondary/40 hover:bg-secondary/30 px-8 py-4 rounded-4xl transition-colors">See Examples</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="absolute top-full h-64 -translate-y-64 bg-secondary-800/20 w-full max-sm:h-24 max-sm:-translate-y-24 max-sm:hidden
+              [@media(min-width:640px)_and_(max-height:960px)]:hidden">
+                  <h2 class="text-text-100 my-4 mt-16 max-sm:hidden">Still unsure?</h2>
+                  <div class="flex justify-center animate-bounce mt-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"><path fill="#ffad8f" d="m12 18.27l-5.308-5.308l.708-.708l4.6 4.594l4.6-4.594l.708.707zm0-5.962L6.692 7l.708-.708l4.6 4.595l4.6-4.595l.708.708z"/></svg>
+                  </div>
+              </div>
+          </div>
+          <img src="./images/polygons.svg" class="opacity-5 h-full w-full absolute top-0 pointer-events-none select-none" alt="">  
+      </div>
+      <div class="bg-secondary-800/20 border-t-4 border-accent/10">
+        <div class="flex flex-col items-center gap-8 py-32 mx-64 max-2xl:mx-16 max-sm:mx-4 max-sm:py-16">
+          <h2 class="my-4 max-sm:text-3xl text-center">Why choose me?</h2>
+          <div class="flex gap-4 text-center *:flex-1 max-lg:flex-col max-lg:*:p-16 max-sm:*:p-8">
+            <div class="from-secondary-800/60 to-secondary-800/80 bg-linear-to-l border-b-8 border-secondary-900/30 p-8 py-16 rounded-2xl my-2 max-lg:my-0 max-lg:mx-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" class="w-full"><path fill="#ffad8f" d="M8.5 19.5q-3.125 0-5.312-2.187T1 12t2.188-5.312T8.5 4.5t5.313 2.188T16 12t-2.187 5.313T8.5 19.5m10 .5V7.8l-1.1 1.1L16 7.5L19.5 4L23 7.5l-1.425 1.4L20.5 7.825V20zm-10-2.5q2.3 0 3.9-1.6T14 12t-1.6-3.9t-3.9-1.6t-3.9 1.6T3 12t1.6 3.9t3.9 1.6m2-2l1.4-1.4l-2.4-2.425V8h-2v4.5zm-2-3.5"/></svg>
+              <h3 class="max-lg:text-2xl max-lg:my-2">Save Time</h3>
+              <p class="text-text-100 max-lg:text-lg">Accurate estimates and practical guidance help you plan faster and avoid delays.</p>
             </div>
+            <div class="from-secondary-800 to-primary-300/40 bg-linear-to-b p-8 pt-16 rounded-2xl flex flex-col items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" class="animate-pulse hidden max-sm:block"><path fill="#ffad8f" d="M12 22q-.825 0-1.412-.587T10 20h3q0 .825-.587 1.413T12 22m-4-3v-2h8v2zm.25-3q-1.725-1.025-2.738-2.75T4.5 9.5q0-3.125 2.188-5.312T12 2t5.313 2.188T19.5 9.5q0 2.025-1.012 3.75T15.75 16z"/></svg>
+              <h3 class="flex justify-center items-center gap-4 max-lg:text-2xl max-lg:my-2">
+                Bright
+                <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" class="animate-pulse max-sm:hidden"><path fill="#ffad8f" d="M12 22q-.825 0-1.412-.587T10 20h3q0 .825-.587 1.413T12 22m-4-3v-2h8v2zm.25-3q-1.725-1.025-2.738-2.75T4.5 9.5q0-3.125 2.188-5.312T12 2t5.313 2.188T19.5 9.5q0 2.025-1.012 3.75T15.75 16z"/></svg>
+                Ideas
+              </h3>
+              <p class="max-lg:text-lg">Creative solutions, practical advice, and clear guidance for smarter home projects.</p>
+              <div class="mt-8">
+                <a href="#" class="border-2 border-primary px-8 py-4 rounded-4xl font-bold hover:bg-primary hover:text-text-900 hover:border-primary-300 transition-colors">Get Expert Advice</a>
+              </div>
+            </div>
+            <div class="from-secondary-800/60 to-secondary-800/80 bg-linear-to-r border-b-8 border-secondary-900/30 p-8 py-16 rounded-2xl my-2 max-lg:my-0 max-lg:mx-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" class="w-full"><path fill="#ffad8f" d="M8.4 21q-2.275 0-3.838-1.562T3 15.6q0-.95.325-1.85t.925-1.625L7.8 7.85L5.375 3h13.25L16.2 7.85l3.55 4.275q.6.725.925 1.625T21 15.6q0 2.275-1.575 3.838T15.6 21zm3.6-5q-.825 0-1.412-.587T10 14t.588-1.412T12 12t1.413.588T14 14t-.587 1.413T12 16M9.625 7h3.75l1-2h-6.75zM8.4 19h7.2q1.425 0 2.413-.987T19 15.6q0-.6-.213-1.162t-.587-1.013L14.525 9H9.5l-3.7 4.4q-.375.45-.587 1.025T5 15.6q0 1.425.988 2.413T8.4 19"/></svg>
+              <h3 class="max-lg:text-2xl max-lg:my-2">Save Money</h3>
+              <p class="text-text-100 max-lg:text-lg">Avoid costly mistakes and make better decisions with precise planning and calculations.</p>
+              </div>
+          </div>
         </div>
+      </div>
+      <div class="relative" id="worked-examples">
+        <div class="absolute top-0 w-full h-1/4 bg-secondary-800/20 -z-10 inset-0"></div>
+        <div class="flex mx-64 max-2xl:mx-4 max-2xl:px-16 max-lg:px-8 flex-col px-48 py-16 rounded-2xl bg-secondary-800 relative text-text-100">
+          <svg xmlns="http://www.w3.org/2000/svg" width=96 height=96 viewBox="0 0 24 24" class="absolute left-8 top-8 max-lg:opacity-25"><path fill="#ffbe5c" d="m14.925 19.15l4.95-4.95q.3-.3.713-.287t.712.312t.3.7t-.3.7l-5.675 5.65q-.15.15-.325.225t-.375.075t-.375-.075t-.325-.225L11.4 18.45q-.3-.3-.3-.7t.3-.7t.7-.3t.7.3zM6 20q-.825 0-1.412-.587T4 18v-7.375L3 11.4q-.325.25-.737.2t-.663-.4q-.25-.325-.187-.725t.387-.65l8.975-6.9q.275-.2.588-.3t.637-.1t.638.1t.587.3L22.2 9.8q.325.25.388.65t-.213.75q-.25.325-.638.388T21 11.4l-.675-.5l-5.4 5.425l-.675-.675q-.875-.9-2.15-.9t-2.15.9q-.875.875-.85 2.175T10 20z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width=96 height=96 viewBox="0 0 24 24" class="absolute left-full top-full max-lg:opacity-25 -translate-32"><path fill="#ffbe5c" d="M17 9h2V7h-2zm0 4h2v-2h-2zm0 4h2v-2h-2zM1 21V11l7-5l7 5v10h-5v-6H6v6zm16 0V10l-7-5.05V3h13v18z"></path></svg>
+          <div class="my-4 z-1">
+            <h2 class="text-text my-4">Worked Examples</h2>
+            Real-world examples showing how measurements, materials, and quantities are accurately calculated.
+            <div class="my-12 grid grid-cols-2 max-sm:grid-cols-1 gap-8 text-text">
+              <div class="">
+                <h1 class="text-accent">1.</h1>
+                <p><span class="border-b-4 border-accent">L-Shaped Landing Carpet</span> -
+                  Landing measured in two sections (1.0 * 4.4 m and 5.0 * 1.98 m) with a 10% cutting allowance. 
+                  Carpet is joined at the turn, with gripper rods fitted around the perimeter.
+                </p>
+              </div>
+              <div class="">
+                <h1 class="text-accent">2.</h1>
+                <p><span class="border-b-4 border-accent">Internal Door Paint Estimate</span> -
+                    6 internal doors with a total surface area of 350,000 cm² and coverage of ~140,000 cm² per litre. Result: 2.75 litres of paint required, including a 10% allowance.
+                   <span class="border-b-2 border-accent-300">2.75 litres  of paint required.</span>
+                  </p>
+              </div>
+              <div class="">
+                <h1 class="text-accent">3.</h1>
+                <p><span class="border-b-4 border-accent">Storage Units (0.5 Hectare Plot)</span> - 
+                  Storage units (25 m², 5 m spacing) planned around a 0.5-hectare plot (~71 * 71 m). 
+                  <span class="border-b-2 border-accent-300">Up to 24 units</span> can be accommodated.
+                </p>
+              </div>
+              <div class="">
+                <h1 class="text-accent">4.</h1>
+                <p><span class="border-b-4 border-accent">Farm Fencing Estimate</span> - 
+                    Total perimeter of 6,000 cm using 210 cm fence panels. Includes a 10% allowance.
+                   <span class="border-b-2 border-accent-300">30 fence panels required</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex mx-64 py-32 max-2xl:mx-8 max-sm:mx-4 gap-16 max-lg:flex-col max-lg:gap-8 max-sm:py-16">
+        <div class="max-lg:text-center">
+          <h2>FAQ.</h2>
+          Check out frequently asked questions
+        </div>
+        <div class="flex-1">
+          <ul class="flex flex-col items-center">
+            <li class="w-full faq-section">
+              <div class="flex justify-between items-center faq-btn p-4 bg-secondary/40 border-b-0 rounded-t-2xl cursor-pointer" open-color-class="bg-secondary/30">
+                <h1 class="text-xl px-2">1. What kind of projects can you estimate?</h1>
+                <img class="dark:filter-[brightness(0)invert(1)] faq-arrow-down w-12" src="./images/material-symbols--add.svg" alt="">
+                <img class="dark:filter-[brightness(0)invert(1)] faq-arrow-up select-none rotate-45 w-12 hidden" src="./images/material-symbols--add.svg" alt="">
+              </div>
+              <p class="px-6 p-4 faq-content hidden bg-secondary/20 animate-fade border-b-0">
+                  I provide estimates for a wide range of home projects, including flooring, painting, fencing, storage units, driveways, and general renovations. If it’s around the house, I can usually give guidance.
+              </p>
+            </li> 
+            <li class="w-full faq-section">
+              <div class="flex justify-between items-center faq-btn cursor-pointer p-4 bg-secondary/30">
+                <h1 class="text-xl px-2">2. How accurate are your estimates?</h1>
+                <img class="dark:filter-[brightness(0)invert(1)] faq-arrow-down w-12" src="./images/material-symbols--add.svg" alt="">
+                <img class="dark:filter-[brightness(0)invert(1)] faq-arrow-up select-none rotate-45 w-12 hidden" src="./images/material-symbols--add.svg" alt="">
+              </div>
+              <p class="px-6 p-4 faq-content hidden bg-secondary/20 animate-fade border-b-0">
+                  All estimates are calculated using real measurements, material specifications, and a small allowance for waste or adjustments. They are designed to give a clear picture of costs and quantities before you start.
+              </p>
+            </li>
+            <li class="w-full faq-section">
+              <div class="flex justify-between items-center faq-btn cursor-pointer p-4 bg-secondary/40">
+                <h1 class="text-xl px-2">3. Do you provide advice on materials and layouts?</h1>
+                <img class="dark:filter-[brightness(0)invert(1)] faq-arrow-down w-12" src="./images/material-symbols--add.svg" alt="">
+                <img class="dark:filter-[brightness(0)invert(1)] faq-arrow-up select-none rotate-45 w-12 hidden" src="./images/material-symbols--add.svg" alt="">
+              </div>
+              <p class="px-6 p-4 faq-content hidden bg-secondary/20 animate-fade border-b-0">
+                Yes! Part of my service is giving practical advice on materials, spacing, and layout to make your project more efficient and cost-effective.
+              </p>
+            </li>
+            <li class="w-full faq-section">
+              <div class="flex justify-between items-center faq-btn cursor-pointer p-4 bg-secondary/30">
+                <h1 class="text-xl px-2">4. Can you help with planning multiple projects at once?</h1>
+                <img class="dark:filter-[brightness(0)invert(1)] faq-arrow-down w-12" src="./images/material-symbols--add.svg" alt="">
+                <img class="dark:filter-[brightness(0)invert(1)] faq-arrow-up select-none rotate-45 w-12 hidden" src="./images/material-symbols--add.svg" alt="">
+              </div>
+              <p class="px-6 p-4 faq-content hidden bg-secondary/20 animate-fade border-b-0">
+                Absolutely. I can look at your whole property and suggest how to sequence projects, make the most of your space, and avoid unnecessary costs.
+              </p>
+            </li> 
+            <li class="w-full faq-section">
+              <div class="flex justify-between items-center faq-btn cursor-pointer p-4 bg-secondary/40">
+                <h1 class="text-xl px-2">5. How do I provide my measurements?</h1>
+                <img class="dark:filter-[brightness(0)invert(1)] faq-arrow-down w-12" src="./images/material-symbols--add.svg" alt="">
+                <img class="dark:filter-[brightness(0)invert(1)] faq-arrow-up select-none rotate-45 w-12 hidden" src="./images/material-symbols--add.svg" alt="">
+              </div>
+              <p class="px-6 p-4 faq-content hidden bg-secondary/20 animate-fade border-b-0">
+                You can send measurements via email, photos, or notes. I can also provide guidance on how to measure accurately if you're unsure.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center my-64 mt-24 mx-8 max-sm:my-16">
+        <h2 class="leading-loose">LET'S MAKE <span class="bg-accent text-text-900 p-4 rounded-4xl">PROJECTS</span> TOGETHER</h2>
+        <p class="my-16 max-sm:my-4 max-sm:mb-8">Get accurate estimates and practical advice so your home projects run smoothly from start to finish.</p>
+        <a href="#" class="mt-8 border-2 border-primary px-8 py-4 rounded-4xl font-bold hover:bg-primary hover:text-text-900 hover:border-primary-300 transition-colors">Get Your Estimate</a>
+      </div>
     </main>
+    <footer class="mt-32 p-16 bg-secondary-900/50 max-sm:p-4 max-sm:py-16">
+      <div class="mx-48 max-2xl:mx-8 flex gap-32 justify-between max-lg:flex-col max-lg:gap-8 max-lg:items-center">
+        <div class="text-2xl meddon-regular">
+            Valentinos Crafts
+        </div>
+        <div>
+          <nav class="flex gap-4">
+              <a href="#">Estimates</a>
+              <a href="#worked-examples">Examples</a>
+              <a href="/portfolio.html">Portfolio</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    let faqSections = document.getElementsByClassName("faq-section");
+    for (let i = 0; i < faqSections.length; i++) {
+        const section = faqSections[i];
+        if(section != null){
+            let btns = section.getElementsByClassName("faq-btn");
+            let content = section.getElementsByClassName("faq-content");
+            let button = btns[0];
+
+            if(button != undefined && content.length > 0){
+                let hidden = true;
+                let imgDown = button.getElementsByClassName("faq-arrow-down")[0];
+                let imgUp = button.getElementsByClassName("faq-arrow-up")[0];
+                button.addEventListener("click", () => {
+                    let element = content[0];
+                    hidden = !hidden;
+                    if(hidden){
+                        element.classList.add("hidden")
+                        if(button.hasAttribute("open-color-class")){
+                          button.getAttribute("open-color-class").split(" ").forEach((c) => {
+                              button.classList.remove(c);
+                          })
+                        }
+                        imgDown.classList.remove("hidden");
+                        imgUp.classList.add("hidden");
+                    }else{
+                        element.classList.remove("hidden");
+                        if(button.hasAttribute("open-color-class")){
+                          button.getAttribute("open-color-class").split(" ").forEach((c) => {
+                              button.classList.add(c);
+                          })
+                        }
+                        imgDown.classList.add("hidden");
+                        imgUp.classList.remove("hidden");
+                    }
+                })
+            }
+        }
+    }
+});
+
+(() => {
+  if(screen.width <= 640){
+    return;
+  }
+  let HERO_HEIGHT = window.innerHeight; // = 100dvh
+  const SNAP_DURATION = 700;
+  const MIN_WHEEL_DELTA = 3;
+  const MIN_TOUCH_DISTANCE = 40;
+
+  let isAnimating = false;
+  let animationFrame = null;
+  let lastDirection = 0;
+
+  const easeOutCubic = (t) => 1 - Math.pow(1 - t, 3);
+
+  function cancelAnimation() {
+    if (animationFrame) {
+      cancelAnimationFrame(animationFrame);
+      animationFrame = null;
+    }
+    isAnimating = false;
+  }
+
+  function smoothScrollTo(targetY) {
+    cancelAnimation();
+
+    const startY = window.scrollY;
+    const distance = targetY - startY;
+    const startTime = performance.now();
+
+    isAnimating = true;
+
+    function step(time) {
+      const elapsed = time - startTime;
+      const progress = Math.min(elapsed / SNAP_DURATION, 1);
+      const eased = easeOutCubic(progress);
+
+      window.scrollTo(0, startY + distance * eased);
+
+      if (progress < 1) {
+        animationFrame = requestAnimationFrame(step);
+      } else {
+        isAnimating = false;
+      }
+    }
+
+    animationFrame = requestAnimationFrame(step);
+  }
+
+  // Desktop
+  window.addEventListener(
+    "wheel",
+    (e) => {
+      const y = window.scrollY;
+      const direction = Math.sign(e.deltaY);
+
+      if (Math.abs(e.deltaY) < MIN_WHEEL_DELTA) return;
+      if (y < 0 || y > HERO_HEIGHT) return;
+
+      // Cancel animation if user reverses intent
+      if (isAnimating && direction !== lastDirection) {
+        cancelAnimation();
+        return;
+      }
+
+      lastDirection = direction;
+
+      // Down
+      if (direction > 0 && y < HERO_HEIGHT / 2) {
+        e.preventDefault();
+        smoothScrollTo(HERO_HEIGHT);
+      }
+
+      // Up
+      if (direction < 0 && y > HERO_HEIGHT / 2) {
+        e.preventDefault();
+        smoothScrollTo(0);
+      }
+    },
+    { passive: false }
+  );
+
+  // Mobile
+  let touchStartY = 0;
+  window.addEventListener("touchstart", (e) => {
+    touchStartY = e.touches[0].clientY;
+  });
+
+  window.addEventListener(
+    "touchend",
+    (e) => {
+      const touchEndY = e.changedTouches[0].clientY;
+      const delta = touchStartY - touchEndY;
+      const direction = Math.sign(delta);
+      const y = window.scrollY;
+
+      if (Math.abs(delta) < MIN_TOUCH_DISTANCE) return;
+      if (y < 0 || y > HERO_HEIGHT) return;
+
+      // Swipe up (scroll down)
+      if (direction > 0 && y < HERO_HEIGHT / 2) {
+        smoothScrollTo(HERO_HEIGHT);
+      }
+
+      // Swipe down (scroll up)
+      if (direction < 0 && y > HERO_HEIGHT / 2) {
+        smoothScrollTo(0);
+      }
+    },
+    { passive: true }
+  );
+
+  window.addEventListener("resize", () => {
+    HERO_HEIGHT = window.innerHeight;
+  });
+})();
+
+</script>
 </body>
 </html>
